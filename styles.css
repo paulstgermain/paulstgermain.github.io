@@ -1,0 +1,180 @@
+a {
+    text-decoration: none!important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* QUICK-ADD STYLES */
+
+.center {
+  text-align: center;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* HEADER STYLES */
+
+.container {
+  max-width: inherit;
+}
+
+.parallax {
+  background: url('images/forest.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.hey {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 40%;
+  bottom: 50%;
+  font-size: 62px;
+}
+
+.subhey {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 40%;
+  bottom: 50%;
+  font-size: 36px;
+}
+
+.blackbox {
+  background-color: black;
+  background: rgba(0, 0, 0, 0.2);
+  font-family: 'Merriweather', serif;
+  position: relative;
+  top: 40%;
+  bottom: 50%;
+  max-width: 30%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  animation: fadeIn ease 6s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+@media (max-width: 767px){
+
+  .parallax{
+    height: 550px;
+  }
+
+  .hey{
+    font-size: 42px;
+  }
+
+  .subhey{
+    font-size: 24px;
+  }
+
+  .blackbox{
+    max-width: 40%;
+  }
+}
+
+/* INTRO STYLES */
+
+.introheader {
+  margin-bottom: 32px;
+}
+
+.intro {
+  margin-top: 75px;
+}
+
+.what {
+  font-size: 24px;
+  /*text-decoration: underline;*/
+}
+
+.intro-text {
+  margin-top: 50px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* QUALITIES STYLES */
+
+.qual {
+margin: 0 auto;
+margin-top: 75px;
+height: 250px;
+}
+
+.qual-header {
+  max-width: 70%;
+
+}
+
+.qual-text {
+  max-width: 70%;
+  position: relative;
+   top: 50%;
+   transform: translate(0, -50%);
+  float: right;
+}
+
+.qual-img {
+  width: 100px;
+  position: relative;
+   top: 50%;
+   transform: translate(0, -50%);
+   float: left;
+   filter: color(#435da0);
+ }
+
+/* FOOTER STYLES */
+
+.footer {
+  background-color: #519872;
+}
+
+.emailquote {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.email {
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.social {
+  margin: 0 15px 0 15px;
+  color: #3b5249;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.social:hover {
+  color: white;
+}
+
+.social-box {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px){
+  .social{
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+  }
+
+  .copyright{
+    font-size: 14px;
+  }
+}
